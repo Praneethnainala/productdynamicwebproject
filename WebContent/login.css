@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+body{
+	margin-top: 100px;
+	margin-right: 20px;
+	}
+
+input{
+	text-align: center;
+	padding: 10px;
+	border-style: solid black;
+	border-width: 5px;
+}
+button{    
+	border-width:10px;
+	border:5px;
+	border-style: outset;
+}
+label{
+	font-family: Georgia, serif;
+	color:#fff;
+	font-size: 25px;
+}

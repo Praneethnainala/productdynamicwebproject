@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+a{
+float:inherit;
+	font-style:inherit;
+  display: inline-block;
+  padding: 5px;
+  background-color: #dddddd;
+	color:black;
+}
+.bar{
+	float: left;
+	font-color:solid black;
+	 width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+h1 {
+	color: #FFFFF0;
+}
+
+label {
+	color: white;
+}
+
+input {
+	border: 3px solid white;
+	border-radius: 12px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px;
+	outline-offset: 0.5em;
+	background-color: black;
+	color: white;
+	font-size:15px;
+}
+
+button{
+	float:center;
+		border: 3px solid white;
+	border-radius: 12px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px;
+	outline-offset: 0.5em;
+	background-color: black;
+	color: white;
+	font-size:15px;
+}
+
+
+
+
+   

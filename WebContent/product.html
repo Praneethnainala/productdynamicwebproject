@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>product info</title>
+<link rel="stylesheet" href="product.css"></link>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script type="text/javascript" src="productjs.js"></script>
+
+</head>
+<center><body  background="dark-wall-empty-room-with-plants-floor-3d-rendering.jpg"   > 
+<br>
+
+<div class ="bar">
+<nav>
+<a href="productmenu.html"><b>HOME</b></a>
+<a href="productTables.html"><b>GET PRODUCT</b></a>
+<a href="productlogin.html"><b>LOG OUT</b></a>
+</nav>
+</div>
+<h1>PRODUCT DETAILS</h1>
+<form name="topform" action="AddProductServelt" method ="post">
+<label >PRODUCT ID</label>
+<input  type="number" name="productId"  /> <br> <br>  
+<label>PRODUCT NAME</label>
+<Input  type ="text" name ="productName" /> <br> <br>
+<label>BRAND NAME</label>
+<input   type ="text" name = "brandName" /> <br> <br>
+<label >category :</label>
+<input type ="checkbox"  name ="category" value="mobile"/> mobile<br>
+<input type ="checkbox" name ="category" value="shoes" /> shoes<br>
+<input type ="checkbox" name ="category" value="clothes"/> clothes<br>
+<input type ="checkbox" name ="category" value="food"/> food <br>
+
+<label>MODEL YEAR</label>
+<input type="number" name="modelYear"/><br><br>
+
+<label>LIST PRICE</label>
+<input type="number" placeholder="oooo.oo" name ="listPrice"/><br><br>
+
+<label>ORDER ID</label>
+<input type="number" name= "orderId"/><br><br>
+
+<button type ="submit" >submit</button><br><br>
+
+
+<!--  </form>
+<form action= "productmenu.html">
+<input type="submit" value="menu" >
+</form>-->
+
+ 
+</body></center>
+</html>
